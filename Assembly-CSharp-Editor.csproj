@@ -66,7 +66,9 @@
      <Compile Include="Assets\IronSource\Editor\IronSourceEditorCoroutines.cs" />
      <Compile Include="Assets\IronSource\Editor\IronSourceMenu.cs" />
      <None Include="Assets\IronSource\Editor\IronSourceSDKDependencies.xml" />
+     <None Include="Assets\ExternalDependencyManager\Editor\GoogleRegistries.xml" />
      <None Include="Assets\Chartboost\Editor\ChartboostDependencies.xml" />
+     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.156_manifest.txt" />
      <None Include="Assets\AudienceNetwork\Editor\AudienceNetworkDependencies.xml" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -262,6 +264,21 @@
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.156">
+        <HintPath>E:/unityprojects/demosdkbuild/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+        <HintPath>E:/unityprojects/demosdkbuild/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.156">
+        <HintPath>E:/unityprojects/demosdkbuild/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.156">
+        <HintPath>E:/unityprojects/demosdkbuild/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver_v1.2.156">
+        <HintPath>E:/unityprojects/demosdkbuild/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:/unityprojects/demosdkbuild/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
